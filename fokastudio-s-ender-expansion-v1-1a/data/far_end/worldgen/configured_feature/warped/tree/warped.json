@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.4,
+				"feature": {
+					"feature": {
+						"type": "minecraft:huge_fungus",
+						"config": {
+							"hat_state": {
+								"Name": "minecraft:warped_wart_block"
+							},
+							"decor_state": {
+								"Name": "minecraft:sea_lantern"
+							},
+							"stem_state": {
+								"Name": "minecraft:warped_stem",
+								"Properties": {
+									"axis": "y"
+								}
+							},
+							"valid_base_block": {
+								"Name": "minecraft:moss_block"
+							},
+							"planted": true
+						}
+					},
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": {
+				"type": "minecraft:huge_fungus",
+				"config": {
+					"hat_state": {
+						"Name": "minecraft:warped_wart_block"
+					},
+					"decor_state": {
+						"Name": "minecraft:air"
+					},
+					"stem_state": {
+						"Name": "minecraft:warped_stem",
+						"Properties": {
+							"axis": "y"
+						}
+					},
+					"valid_base_block": {
+						"Name": "minecraft:moss_block"
+					},
+					"planted": true
+				}
+			},
+			"placement": []
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"category": "the_end",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 16636149,
+		"water_color": 5855577,
+		"water_fog_color": 3355443,
+		"grass_color": 8882055,
+		"foliage_color": 9079434,
+		"grass_color_modifier": "none",
+		"ambient_sound": "ambient.basalt_deltas.loop",
+		"mood_sound": {
+			"sound": "ambient.nether_wastes.mood",
+			"tick_delay": 500,
+			"block_search_extent": 6,
+			"offset": 1
+		},
+		"additions_sound": {
+			"sound": "ambient.crimson_forest.additions",
+			"tick_chance": 0.0025
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:ash"
+			},
+			"probability": 0.05
+		}
+	},
+	"spawners": {
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"far_end:surface_scar"
+		]
+	},
+	"features": [
+		[
+			"far_end:nest/island/end_stone_bottom",
+			"far_end:nest/hills/deepslate",
+			"far_end:nest/surface/tuff"
+		],
+		[],
+		[
+			"far_end:general/dragon_egg"
+		],
+		[
+			"minecraft:fossil_upper"
+		],
+		[],
+		[],
+		[],
+		[
+			"far_end:nest/vegetation/dead_corals"
+		],
+		[
+			"far_end:ore_iron_small",
+			"far_end:ore_iron_middle",
+			"far_end:ore_iron_upper"
+		],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

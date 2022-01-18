@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=foka.gateway_utility] at @s run function fokastudio:end/end_gateway_loop-1

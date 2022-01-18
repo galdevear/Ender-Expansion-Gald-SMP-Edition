@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:random_selector",
+	"config": {
+		"features": [
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "far_end:amethyst/tree/purple",
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.5,
+				"feature": {
+					"feature": "far_end:amethyst/tree/umbrella",
+					"placement": []
+				}
+			}
+		],
+		"default": {
+			"feature": {
+				"type": "minecraft:huge_fungus",
+				"config": {
+					"hat_state": {
+					"Name": "minecraft:dark_oak_leaves",
+					"Properties": {
+						"distance": "7",
+						"persistent": "true"
+					}
+					},
+					"decor_state": {
+					"Name": "minecraft:jungle_leaves",
+					"Properties": {
+						"distance": "7",
+						"persistent": "true"
+					}
+					},
+					"stem_state": {
+					"Name": "minecraft:dark_oak_log",
+					"Properties": {
+						"axis": "y"
+					}
+					},
+					"valid_base_block": {
+					"Name": "minecraft:grass_block",
+					"Properties": {
+						"snowy": "false"
+					}
+					},
+					"planted": true
+				}
+			},
+			"placement": []
+		}
+	}
+}

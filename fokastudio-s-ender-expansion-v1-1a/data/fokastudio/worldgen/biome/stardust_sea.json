@@ -1,0 +1,72 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"precipitation": "none",
+	"category": "the_end",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 16636149,
+		"water_color": 15979007,
+		"water_fog_color": 329011,
+		"grass_color": 3892594,
+		"foliage_color": 11392511,
+		"grass_color_modifier": "none",
+		"particle": {
+			"options": {
+				"type": "dripping_dripstone_water"
+			},
+			"probability": 0.001
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:phantom",
+				"weight": 30,
+				"minCount": 4,
+				"maxCount": 7
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 30,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"far_end:surface_scar"
+		],
+		"liquid": [
+			"minecraft:cave",
+			"minecraft:cave"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2",
+			"minecraft:end_island_decorated"
+		],
+		[],
+		[
+			"far_end:star"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+
+		],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

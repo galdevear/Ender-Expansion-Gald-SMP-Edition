@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "deepslate",
+        "cobbled_deepslate",
+        "polished_deepslate",
+        "basalt"
+    ]
+}

@@ -1,0 +1,77 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"precipitation": "none",
+	"category": "the_end",
+	"effects": {
+		"sky_color": 0,
+		"fog_color": 10518688,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"grass_color": 4601422,
+		"foliage_color": 5191246,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 4000,
+			"block_search_extent": 16,
+			"offset": 12
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 50,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {
+		"minecraft:enderman": {
+			"energy_budget": 0.12,
+			"charge": 1
+		}
+	},
+	"carvers": {
+		"air": [
+			"cave",
+			"nether_cave"
+		]
+	},
+	"features": [
+		[
+			"fokastudio:global/stalactite_1",
+			"fokastudio:global/stalactite_2"
+		],
+		[
+			"far_end:ore_iron_small",
+			"far_end:ore_iron_middle",
+			"far_end:ore_iron_upper"
+		],
+		[
+		],
+		[
+			"fokastudio:wastes/tree",
+			"fokastudio:wastes/dead_tree",
+			"far_end:eye_geode"
+		],
+		[
+			"minecraft:end_gateway_return"
+		],
+		[],
+		[],
+		[],
+		[],
+		[
+			"far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+		]
+	]
+}

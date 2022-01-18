@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 2,
+    "discard_chance_on_air_exposure": 0.5,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "far_end:end_iron_replaceable"
+        },
+        "state": {
+          "Name": "minecraft:raw_iron_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "far_end:end_iron_deepslate_replaceable"
+        },
+        "state": {
+          "Name": "minecraft:deepslate_iron_ore"
+        }
+      }
+    ]
+  }
+}
